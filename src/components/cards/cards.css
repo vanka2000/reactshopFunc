@@ -1,0 +1,47 @@
+.main_card_img{
+    width: 100%;
+    height: 390px;
+    background-size: cover;
+}
+.main_card{
+    transition: 0.5s;
+    background:  linear-gradient( #b31d42, #942723,  #4e1221);
+    width: 24%;
+    margin-bottom: 20px;
+    border-radius: 20px 0;
+}
+.main_card:hover{
+    transform: scale(1.05);
+}
+.main_card_container{
+    height: 150px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.main_card_price{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: azure;
+}
+.main_card_title{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(229, 231, 231)
+}
+.main_card_buy{
+    transition: 0.5s;
+    position: absolute;
+    bottom: 10px;
+    width: auto;
+    height: 30px;
+    padding: 0 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(48, 26, 26);
+    color: azure;
+}
+.main_card_buy:hover{
+    background-color: rgb(114, 91, 91);
+}
